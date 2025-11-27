@@ -29,3 +29,58 @@ You can install them via pip if they are not already installed:
 
 ```bash
 pip install pandas numpy matplotlib seaborn
+
+Dataset
+
+The dataset used in this analysis contains information about 10,000 movies, including features like:
+
+Revenue
+
+Budget
+
+Genres
+
+Release Date
+
+Vote Average and Vote Count
+
+Runtime
+
+Director, Cast, and Production Companies
+
+This dataset was sourced from The Movie Database (TMDb), and is adjusted for inflation in terms of revenue and budget.
+
+Visualizations
+
+This project includes various visualizations to explore the relationships between movie revenue and other factors, including:
+
+Bar charts for average revenue by genre.
+
+Heatmaps to visualize correlations between numerical variables.
+
+Line plots showing revenue trends over time.
+
+Conclusions and Limitations
+Key Findings:
+
+Certain genres (e.g., Action, Adventure) tend to generate higher revenues.
+
+There is a positive correlation between movie budget and revenue.
+
+Vote average and vote count also have a moderate influence on revenue.
+
+Limitations:
+
+The analysis does not take into account external factors like marketing or audience engagement, which could significantly impact revenue.
+
+The dataset has some missing values, particularly in columns like budget and revenue, which were imputed with zeros in the analysis.
+
+Further Research:
+
+Future work could involve analyzing the impact of cast or director on movie revenue.
+
+Investigating the role of marketing budgets and audience ratings could also provide deeper insights into a movie’s success.
+
+License
+
+This project is licensed under the MIT License
